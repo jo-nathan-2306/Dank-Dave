@@ -27,4 +27,4 @@ async def meme(ctx):
     embed= discord.Embed(title=title)
     embed.set_image(url=url) 
     await ctx.send(embed=embed)
-client.run("ODI1MjI2MDQ5NDk5NDMwOTMy.YF61pg.Hvbnkb4yFZA02axsaCZtpYE8jDI")
+client.run(os.environ['TOKEN'])
