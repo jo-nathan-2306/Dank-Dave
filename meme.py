@@ -8,8 +8,8 @@ client= commands.Bot(command_prefix='oi ')
 async def on_ready():
     await client.change_presence(activity=discord.Game("Danking around"))
     print("Works")
-reddit = praw.Reddit(client_id = 'Db06qqPd7w7SGg', 
-                    client_secret = '_5wYenAB9v7uMCA1DBgwryl4PFL3pA', 
+reddit = praw.Reddit(client_id = '', 
+                    client_secret = '', 
                     user_agent = 'Nomto memes')
 @client.command()
 async def meme(ctx):
